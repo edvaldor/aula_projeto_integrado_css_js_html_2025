@@ -38,11 +38,44 @@
       margin: 20px 0;
       border-left: 4px solid #007700;
     }
+      .destaque-fusca {
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+    background-color: #f9f9f9;
+  }
+
+  .container-fusca {
+    max-width: 420px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .img-fusca {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .legenda {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 10px;
+  }
   </style>
 </head>
 <body>
       <header>
-    <img src="fuscacapa.jpg" alt="Fusca e Avião">
+    <section class="destaque-fusca">
+  <div class="container-fusca">
+    <img src="fuscacapa.jpg" alt="Fusca ao lado" class="img-fusca">
+    <p class="legenda">O retorno do clássico: Fusca 1979 em clima de aviação</p>
+  </div>
+</section>
   </header>
   <div class="container">
     <h1>📘 Instruções do Projeto: Landing Page Fusca 1979</h1>
