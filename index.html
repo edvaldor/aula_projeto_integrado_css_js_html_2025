@@ -215,7 +215,33 @@
     setInterval(atualizarContador, 1000);
     atualizarContador();
     </code>
+<h2>Sugestão de CSS</h2>
+<code>
+    /* Estilo sugerido para todas as imagens do projeto */
+.imagens {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease-in-out;
+}
 
+/* Efeito ao passar o mouse */
+.imagens:hover {
+  transform: scale(1.02);
+}
+
+/* Legenda opcional */
+.legenda {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin-top: -10px;
+}
+
+</code>
     <p>Observação: Você deve criar uma tag <code><div id="contador" class="contador">Carregando...</div></code>para que o contador funcione</p>
 
     <h2>📤 Publicação</h2>
@@ -229,6 +255,16 @@
     <h2>✅ Entrega</h2>
     <p>Entregue o link da sua landing page para o professor conforme orientação na sala.</p>
   </div>
+  <div style="margin: 40px auto; max-width: 800px; font-family: Arial, sans-serif; background: #fffbe0; border-left: 6px solid #f5c518; padding: 20px;">
+  <h3 style="margin-top: 0;">🎓 Dica para seu projeto: aproveite o que já vimos em sala!</h3>
+  <p>Antes de finalizar sua landing page, revise os materiais das últimas aulas, especialmente:</p>
+  <ul>
+    <li>📁 <strong>CSS</strong>: layouts com <code>flexbox</code>, uso de classes, organização de arquivos</li>
+    <li>🧠 <strong>JavaScript</strong>: manipulação de elementos, criação de timers, carrossel de imagens</li>
+    <li>🛠️ <strong>Slides JS/CSS anteriores</strong>: os exemplos estão no GitHub e Vercel para consulta</li>
+  </ul>
+  <p>💡 Use os conhecimentos que já tem para aprimorar o projeto. Você pode e deve experimentar e personalizar! 🚀</p>
+</div>
   <script>
     function atualizarContador() {
       const dataLancamento = new Date("2025-05-28T22:40:00");
